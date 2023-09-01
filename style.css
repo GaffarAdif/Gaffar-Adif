@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cnt-bg{
+    background-color: #3f414288;
+}
+
+/* header section start here  */
+.full-sec {
+    height: 590px;
+}
+
+.bg-nav {
+
+
+    background-color: rgba(118, 218, 118, 0.226);
+
+    border-radius: 10px;
+
+}
+.logo-and-nav{
+    position: fixed;
+    height: 610px;
+background-color: red;
+}
+.profile-pic {
+    margin-top: 20px;
+    margin-bottom: 10pxs;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+.nav-style {
+    margin: 10px;
+    border: .2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.loog h1 {
+    font-size: 20px;
+}
+
+
+.loog {
+    margin-left: 10px;
+
+}
+
+
+/* content section  start herre 
+ */
+
+
+.home-sec{
+    width: 100%;
+    height: 590px;
+    
+}
+.spn{
+color: #FFE17B;s
+}
+.grn{
+    color: green;
+}
+
+.kom{
+    color: #f5c21b;
+}
+.lblu{
+    color: aqua;
+}
+
+.lgrn{
+    color: greenyellow;
+}
+
+.p-btn{
+    height: 40px;
+    width: 150px;
+    background-color: #FFE17B;
+    border-radius: 8px;
+    border: none;
+}
+.p-btn a{
+text-decoration: none;
+color: green;
+}
+
+.c-btn{
+    height: 40px;
+    width: 200px;
+    background-color:transparent;
+    border-radius: 8px;
+    border: none;
+}
+.c-btn a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.733);
+}
+
+.home-text{
+    color: rgb(58, 56, 56);
+}
+
+
+.home-ani-sec{
+
+margin-bottom: 800px;
+
+animation-name: homeani;
+animation-duration: 3s;
+animation-delay: .5s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+@keyframes homeani {
+
+    to{
+     
+margin-bottom: 0px;
+    }
+    
+}
+
+/* project seection staart  here  */
+
+
+.project-sec{
+    border-top: .6px solid black;
+    margin-top: 10px;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+
+
+.project-heading{
+    padding: 20px;
+}
+
+.card{
+    margin-left: 20px;
+    height: 425px;
+    width: 400px;
+    background-color: #435334;
+}
+
+.card-img{
+    margin-top:5px ;
+    margin-left: 1%;
+    width: 98%;
+}
+
+
+.card h1{
+   margin: 15px 0;
+}
+.card h1 a{
+    text-decoration: none;
+    color: white;
+}
+.card p{
+  
+    color: rgba(37, 35, 35, 0.973);
+}
+.card-btn{
+    border: none;
+    background-color: transparent;
+}
+.card-btn a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+
+
+
+
+
+
+
+
+
