@@ -16,7 +16,6 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 10px solid greenyellow;
 
 }
 
@@ -33,23 +32,26 @@
         background-color: darkseagreen;
     }
 .header-cs{
-    position: fixed;
-background-color: red;
+position: fixed;
+background-image: url(/img/programming.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
-
 .nav-manu{
     height: 100vh;
-    background-color: red;
 }
 .logo img{
     height: 120px;
     width: 120px;
     border-radius: 50%;
     border: 10px solid greenyellow;
-    margin-top: 0;
+    margin-top: 30px;
 }
-
+.clr{
+    background-color: #aec3aed5;
+}
 .nav-li{
     margin-top: 20px;
     border: .6px solid black;
@@ -183,7 +185,7 @@ border-radius: 10px;
     padding: 10px;
     height: 200px;
     width: 400px;
-    background-color: red;
+    background-color: #aed2ff80;
     border-radius: 12px;
 }
 
@@ -191,24 +193,24 @@ border-radius: 10px;
 
 .form-div{
     text-align: center;
-    height: 350px;
+    height: 330px;
     width: 500px;
-    background: rebeccapurple;
+    background: #AED2FF;
+    border-radius: 10px;
 }
 
-
-
-#name
-{   margin-top: 20px;
+#name{      height: 40px;
+     margin-top: 20px;
     width: 48%;
     border-radius: 8px;
 }
-#email{
+#email{ height: 40px;
     margin-top: 20px;
     width: 48%;
     border-radius: 8px;
 }
 #subject{
+    height: 40px;
 margin: 10px 0;
     width: 96%;
     border-radius: 8px;
@@ -218,7 +220,32 @@ margin: 10px 0;
     width:96%;
     resize: none;
     border-radius: 8px;
+}
+.form-btn{
+height: 40px;
+width: 120px;
+background-color: #AEC3AE;
+border-radius: 10px;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
 }
