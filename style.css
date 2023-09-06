@@ -130,15 +130,19 @@ animation: home-sec-ani 3.5s 1 .2s forwards;
     align-items: center;
     justify-content: center;
 }
+
 .animate-me {
     opacity: 0;
-    transform: scale(0.8);
-    transition: opacity 1.5s, transform 2s;
+    margin-top: 500px; /* Start with a margin-top of 500px */
+    transition: opacity 1.5s, margin-top 2s; /* Transition the margin-top property */
 }
+
 .animate-me.animate {
     opacity: 1;
-    transform: scale(1);
+    margin-top: 0; /* Move the element to a margin-top of 0px */
 }
+
+
 /* scrool animation code  */
 
 /* card section start here  */
@@ -261,6 +265,20 @@ background-color: #AEC3AE;
 border-radius: 10px;
 }
 
+/* social midia section start here  */
+
+.social-midia{
+  margin: -95px 0 0 20px;
+    height: 50px;
+    width: 300px;
+    background-color: #dae2b677;
+    border-radius: 7px;
+}
+
+.social-midia img{
+    height: 35px;
+    width: 35px;
+}
 
 
 
@@ -275,10 +293,4 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
-s
 }
