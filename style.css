@@ -5,28 +5,16 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
+
 
 .full-section{
     width: 100%;
  
 }
 
-
-.logo img{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-
-}
-
-
-
-
-
-
-
-/* for desktop  */
-@media screen and (min-width:992px) {
     .full-section{
         width: 100%;
         background-color: darkseagreen;
@@ -43,23 +31,37 @@ background-size: cover;
     height: 100vh;
 }
 .logo-text{
-    margin-top: 10px;
-    font-size: 30px;
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 .logo img{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    border: 10px solid greenyellow;
-    margin-top: 30px;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 58% 42% 53% 47% / 30% 44% 56% 70% ;
+    margin-top: 3rem;
+
+    animation: my-pic 5s infinite linear ;
 }
+@keyframes my-pic {
+    0%{
+        border-radius: 58% 42% 53% 47% / 30% 44% 56% 70% ;
+    }
+50%{
+border-radius: 77% 23% 38% 62% / 57% 68% 32% 43% ;
+}
+
+    100%{  border-radius: 58% 42% 53% 47% / 30% 44% 56% 70% ;}
+      
+}
+
+
 .clr{
     background-color: #aec3aed5;
 }
 .nav-li{
-    margin-top: 20px;
-    border: .6px solid black;
-   border-radius: 7px;
+    margin-top: 2rem;
+    border: .06rem solid black;
+   border-radius: .7rem;
 }
 
 /* content section s */
@@ -67,7 +69,7 @@ background-size: cover;
 /* home section  */
 
 .home-h-text{
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bolder;
     color:#252B48;
 }
@@ -79,22 +81,22 @@ background-size: cover;
 .ht-st{color: #F8FF95;}
 
 .home-p-text{
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #FFFFDD;
 }
 
 
 
 .home-div{
-    margin: 0px 0px 0px 10px;
-    height: 100vh;
+    margin: 0px 0px 0px 1rem;
+    height: 64vh;
     width: 100%;
     position: relative;
 }
 .home-btn{
-    border-radius: 8px;
-    height: 45px;
-    width: 170px;
+    border-radius: .8rem;
+    height: 4.5rem;
+    width: 17rem;
     background-color: rgb(224, 224, 114);
     color: #102C57;
     transition: .8s;
@@ -109,13 +111,13 @@ background-size: cover;
     color: white;
     border: none;
     border-radius: 8px;
-    height: 45px;
-    width: 170px;
+    height: 4.5rem;
+    width: 17rem;
     background-color: transparent
 }
 .home-ani-div{
     position: absolute;
-    margin-top: 600px;
+    margin-top: 60rem;
 animation: home-sec-ani 3.5s 1 .2s forwards;
 }
 
@@ -133,7 +135,7 @@ animation: home-sec-ani 3.5s 1 .2s forwards;
 
 .animate-me {
     opacity: 0;
-    margin-top: 500px; /* Start with a margin-top of 500px */
+    margin-top: 50rem; /* Start with a margin-top of 500px */
     transition: opacity 1.5s, margin-top 2s; /* Transition the margin-top property */
 }
 
@@ -152,30 +154,30 @@ animation: home-sec-ani 3.5s 1 .2s forwards;
 }
 
 .c-card{
-    height: 400px;
-    width: 300px;
+    height: 40rem;
+    width: 30rem;
     background-color: #B9B4C7;
     border-radius: 10px;
     box-shadow:8px 8px 5px #fffbe91a, -8px -8px 5px #fffbe91a;
     transition: .7s;
 }
 .c-card:hover{
-    height: 420px;
-    width: 320px;
+    height: 42rem;
+    width: 32rem;
    
     box-shadow:12px 12px 5px #fffbe91a, -12px -12px 5px #fffbe91a;
 }
 .c-card img{
     margin-top: 10px;
-    height: 150px;
-    width:300px;
+    height: 15rem;
+    width:30rem;
     border-radius: 10px;
 }
 .c-card h3{
-    margin: 20px 0 0 10px;
+    margin: 2rem 0 0 1rem;
 }
 .c-card h3 a{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #40F8FF;
     
 text-decoration: none;
@@ -186,15 +188,15 @@ text-decoration: none;
 }
 .card-btn{
 margin: 10px 0 0 5px;
-height: 40px;
-width: 150px;
+height: 4rem;
+width: 15rem;
 background-color: transparent;
 border: 1px solid tomato;
 border-radius: 10px;
 }
 .Pending h1 {
     color: #A8DF8E;
-    font-size: 60px;
+    font-size: 6rem;
 }
 /* abuout section sart  herre  */
 
@@ -213,54 +215,54 @@ border-radius: 10px;
 .a-card{
     margin-top: 20px;
     padding: 10px;
-    height: 200px;
-    width: 400px;
+    height: 20rem;
+    width: 40rem;
     background-color: #aed2ff80;
     border-radius: 12px;
 transition: 2s;
     box-shadow: 8px 8px 3px rgba(224, 255, 255, 0.288), -8px -8px 3px rgba(224, 255, 255, 0.288);
 }
 .a-card:hover{
-    margin: 25px;
-    height: 220px;
-    width: 420px;
+    margin: 2.5rem;
+    height: 22rem;
+    width: 42rem;
     padding: 0;}
 
 /* contact section start here  */
 
 .form-div{
     text-align: center;
-    height: 330px;
-    width: 500px;
+    height: 33rem;
+    width: 50rem;
     background: #AED2FF;
     border-radius: 10px;
 }
 
-#name{      height: 40px;
-     margin-top: 20px;
+#name{      height: 4rem;
+     margin-top: 2rem;
     width: 48%;
     border-radius: 8px;
 }
-#email{ height: 40px;
-    margin-top: 20px;
+#email{ height: 4rem;
+    margin-top: 2rem;
     width: 48%;
     border-radius: 8px;
 }
 #subject{
-    height: 40px;
+    height: 4rem;
 margin: 10px 0;
     width: 96%;
     border-radius: 8px;
 }
 #text-area{
-    height: 150px;
+    height: 15rem;
     width:96%;
     resize: none;
     border-radius: 8px;
 }
 .form-btn{
-height: 40px;
-width: 120px;
+height: 4rem;
+width: 12rem;
 background-color: #AEC3AE;
 border-radius: 10px;
 }
@@ -268,16 +270,16 @@ border-radius: 10px;
 /* social midia section start here  */
 
 .social-midia{
-  margin: -95px 0 0 20px;
-    height: 50px;
-    width: 300px;
+  margin: -9.5rem 0 0 20px;
+    height: 5rem;
+    width: 30rem;
     background-color: #dae2b677;
     border-radius: 7px;
 }
 
 .social-midia img{
-    height: 35px;
-    width: 35px;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 
@@ -285,12 +287,3 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
-
-
-
-}
