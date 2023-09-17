@@ -1,37 +1,159 @@
 /* Extra Small (xs) */
 @media (max-width: 575.98px) {
-   
-html{
-    font-size: 6px;
+html{font-size: 6px;}
+
+.header-sec{
+    height: 7.5rem;
+    width: 100%;
 }
+.mypic{
+    margin: 2rem 0;
+    height: 5rem;
+width: 5rem;
+border-radius: 50%;
+}
+.container-fluid{
+    width: 100%;
+    flex-direction: row  !important;
+}
+.navbar-brand{
+    flex-direction: row !important;
+}
+.navbar-toggler{
+    margin-top: -2.5rem;
+    margin-left: 30rem;
+}
+.mypic{
+    margin: 2.5rem 0;
+    margin-top: -.2rem;
+    margin-right: 1.5rem;
+    height: 5rem;
+width: 5rem;
+border-radius: 50%;
+}
+.logo-text{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.logo-tex{
+    margin: 1.5rem !important;
+}
+.navbar-nav{
+    flex-direction: row !important;
+}
+
+    /* Your CSS styles for extra small screens */
   }
   
   /* Small (sm) */
-  @media (min-width: 576px) and (max-width: 767.98px) {
+  /* Small (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {
 
+    html{font-size: 8px;}
+
+    .header-sec{
+        height: 7.5rem;
+        width: 100%;
+    }
+    .mypic{
+        margin: 2rem 0;
+        height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    }
+    .container-fluid{
+        width: 100%;
+        flex-direction: row  !important;
+    }
+    .navbar-brand{
+        flex-direction: row !important;
+    }
+    .navbar-toggler{
+        margin-top: -2.5rem;
+        margin-left: 1rem;
+    }
+    .mypic{
+        margin: 2.5rem 0;
+        margin-top: -.2rem;
+        margin-right: 1.5rem;
+        height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    }
+    .logo-text{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
     
-html{
-    font-size: 7px;
-}
+    h2{
+        margin-right: 30rem;
+
+    }
+    .navbar-nav{
+        flex-direction: row !important;
+    }
     /* Your CSS styles for small screens */
   }
-  
+
+
+
   /* Medium (md) */
   @media (min-width: 768px) and (max-width: 991.98px) {
+    html{font-size: 8px;}
+    .header-sec{
+        height: 7.5rem;
+        width: 100%;
+    }
+    .mypic{
+        margin: 2rem 0;
+        height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    }
+    .container-fluid{
+        width: 100%;
+        flex-direction: row  !important;
+    }
+    .navbar-brand{
+        flex-direction: row !important;
+        margin-right: 70rem;
+    }
+    .navbar-toggler{
+        margin-top: -2.5rem;
+        margin-left: -20rem;
+    }
+    .mypic{
+        margin: 2.5rem 0;
+        margin-top: -.2rem;
+        margin-right: 1.5rem;
+        height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    }
+    .logo-text{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+ margin-right: 40rem !important;
+
+        /* logo-tex {
+            margin: 1.5rem !important;
+            margin-right: 1.5rem;
+           
+          }
+        } */
+    }
+    
+    .logo-tex{
+        margin: 1.5rem !important;
+    }
+    .navbar-nav{
+        flex-direction: row !important;
+   
+    }
+
+
 
     
-html{
-    font-size: 8px;
-}
     /* Your CSS styles for medium screens */
   }
-  
-  /* Large (lg) */
-
-  
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-
-    
-    /* Your CSS styles for large screens */
-  }
-  

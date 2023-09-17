@@ -1,293 +1,57 @@
-
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 
-html{
-    font-size: 10px;
+/*----------------
+ re useble codes 
+------------------ */
+:root{
+    --bg-color:darkseagreen;
+    --black-color:#000000;
+    --white-color:white;
+    --heading-color:#252B48;
 }
+html{font-size: 10px;}
 
+li{list-style: none;}
+a{text-decoration: none; color: var(--black-color);}
+h1{color: var(--heading-color);}
 
+/* mern stuck color  */
+.m{color: green;}
+.e{color: orange;}
+.r{color: rgb(28, 255, 236);}
+.n{color: greenyellow;}
+/* mern stuck color  */
 
-.full-section{
-    width: 100%;
- 
+/*-------------------------- 
+main code start here 
+---------------------------- */
+.header-sec{
+    height: 64.3rem;
+    /* background-color:red; */
 }
-
-
-.logo img{
-    height: 6rem;
-    width: 6rem;
-    border-radius: 50%;
-
+.div-manupu{ 
+    height: 7.5rem;
 }
-
-    .full-section{
-        width: 100%;
-        background-color: darkseagreen;
-    }
-.header-cs{
-position: fixed;
-background-image: url(./img/programming.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
-}
-.nav-manu{
-    height: 100vh;
+.mypic{
+    margin: 2.5rem 0;
+    height: 12.5rem;
+width: 12.5rem;
+border-radius: 50%;
 }
 .logo-text{
-    margin-top: 1rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
-.logo img{
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    border: 1rem solid greenyellow;
-    margin-top: 3rem;
-}
-.clr{
-    background-color: #aec3aed5;
-}
-.nav-li{
-    margin-top: 2rem;
-    border: .6px solid black;
-   border-radius: 7px;
-}
-
-/* content section s */
-
-/* home section  */
-
-.home-h-text{
-    font-size: 5rem;
-    font-weight: bolder;
-    color:#252B48;
-}
+.nav-item{
+    margin: 1rem;
     
-.ht-m{color: green;}
-.ht-e{color: orange;}
-.ht-r{color: rgb(28, 255, 236);}
-.ht-n{color: greenyellow;}
-.ht-st{color: #F8FF95;}
-
-.home-p-text{
-    font-size: 2.2rem;
-    color: #FFFFDD;
 }
-
-
-
-.home-div{
-    margin: 0px 0px 0px 10px;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-.home-btn{
-    border-radius: 8px;
-    height: 4.5rem;
-    width: 17rem;
-    background-color: rgb(224, 224, 114);
-    color: #102C57;
-    transition: .8s;
-}
-.home-btn:hover{
-    color: white;
-    background-color: transparent;
-    box-shadow: 3px 3px 2px rgba(255, 255, 255, 0.26), -3px -3px 2px rgba(255, 255, 255, 0.26);
-
-}
-.home-btn2{
-    color: white;
-    border: none;
-    border-radius: 8px;
-    height: 4.5rem;
-    width: 17rem;
-    background-color: transparent
-}
-.home-ani-div{
-    position: absolute;
-    margin-top: 60rem;
-animation: home-sec-ani 3.5s 1 .2s forwards;
-}
-
-@keyframes home-sec-ani { to{margin-top: 0;}}
-
-
-/* scrool animation code  */
-/* styles.css */
-.scroll-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.animate-me {
-    opacity: 0;
-    margin-top: 50rem; /* Start with a margin-top of 500px */
-    transition: opacity 1.5s, margin-top 2s; /* Transition the margin-top property */
-}
-
-.animate-me.animate {
-    opacity: 1;
-    margin-top: 0; /* Move the element to a margin-top of 0px */
-}
-
-
-/* scrool animation code  */
-
-/* card section start here  */
-.wor-top-text{
-    color: #5C4B99 ;
-    text-decoration: underline;
-}
-
-.c-card{
-    height: 40rem;
-    width: 30rem;
-    background-color: #B9B4C7;
-    border-radius: 10px;
-    box-shadow:8px 8px 5px #fffbe91a, -8px -8px 5px #fffbe91a;
-    transition: .7s;
-}
-.c-card:hover{
-    height: 42rem;
-    width: 32rem;
-   
-    box-shadow:12px 12px 5px #fffbe91a, -12px -12px 5px #fffbe91a;
-}
-.c-card img{
-    margin-top: 10px;
-    height: 15rem;
-    width:30rem;
-    border-radius: 10px;
-}
-.c-card h3{
-    margin: 2rem 0 0 1rem;
-}
-.c-card h3 a{
-    font-size: 3.5rem;
-    color: #40F8FF;
+.nav-link{
+  font-size: 2rem;
     
-text-decoration: none;
-}
-.c-card p{
-    margin: 12px 0 12px 5px;
-    font-size: 17px;
-}
-.card-btn{
-margin: 10px 0 0 5px;
-height: 4rem;
-width: 15rem;
-background-color: transparent;
-border: 1px solid tomato;
-border-radius: 10px;
-}
-.Pending h1 {
-    color: #A8DF8E;
-    font-size: 6rem;
-}
-/* abuout section sart  herre  */
-
-
-.about-heading{
-    text-decoration: underline;
-}
-.ab-txt{
-    padding-bottom: 5px;
-    color: chocolate;
-}
-.contact-clr{
-    color: #609966;
-    text-decoration: underline;
-}
-.a-card{
-    margin-top: 2rem;
-    padding: 1rem;
-    height: 20rem;
-    width: 40rem;
-    background-color: #aed2ff80;
-    border-radius: 12px;
-transition: 2s;
-    box-shadow: 8px 8px 3px rgba(224, 255, 255, 0.288), -8px -8px 3px rgba(224, 255, 255, 0.288);
-}
-.a-card:hover{
-    margin: 2.5rem;
-    height: 22rem;
-    width: 42rem;
-    padding: 0;}
-
-/* contact section start here  */
-
-.form-div{
-    text-align: center;
-    height: 33rem;
-    width: 50rem;
-    background: #AED2FF;
-    border-radius: 10px;
 }
 
-#name{      height: 4rem;
-     margin-top: 2rem;
-    width: 48%;
-    border-radius: 8px;
-}
-#email{ height: 4rem;
-    margin-top: 2rem;
-    width: 48%;
-    border-radius: 8px;
-}
-#subject{
-    height: 4rem;
-margin: 10px 0;
-    width: 96%;
-    border-radius: 8px;
-}
-#text-area{
-    height: 15rem;
-    width:96%;
-    resize: none;
-    border-radius: 8px;
-}
-.form-btn{
-height: 4rem;
-width: 12rem;
-background-color: #AEC3AE;
-border-radius: 10px;
-}
-
-/* social midia section start here  */
-
-.social-midia{
-  margin: -9.5rem 0 0 2rem;
-    height: 5rem;
-    width: 30rem;
-    background-color: #dae2b677;
-    border-radius: 7px;
-}
-
-.social-midia img{
-    height: 3.5rem;
-    width: 3.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
