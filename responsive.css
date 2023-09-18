@@ -22,6 +22,7 @@ border-radius: 50%;
 .navbar-toggler{
     margin-top: -2.5rem;
     margin-left: 30rem;
+    background-color: white;
 }
 .mypic{
     margin: 2.5rem 0;
@@ -42,6 +43,21 @@ border-radius: 50%;
 .navbar-nav{
     flex-direction: row !important;
 }
+.m-t{flex-direction: column;}
+.work-card{
+    height: 30rem;
+    width: 60%;
+background-color: red;
+text-align: center;
+border-radius: .8rem;
+border: .2px solid black;
+padding: .5rem;
+}
+.w-c{
+    flex-direction: column;
+}
+
+
 
     /* Your CSS styles for extra small screens */
   }
@@ -72,6 +88,7 @@ border-radius: 50%;
     .navbar-toggler{
         margin-top: -2.5rem;
         margin-left: 1rem;
+        background-color: white;
     }
     .mypic{
         margin: 2.5rem 0;
@@ -93,6 +110,17 @@ border-radius: 50%;
     .navbar-nav{
         flex-direction: row !important;
     }
+
+    .m-t{flex-direction: column;}
+.work-card{
+    height: 30rem;
+    width: 50%;
+background-color: red;
+text-align: center;
+border-radius: .8rem;
+border: .2px solid black;
+padding: .5rem;
+}
     /* Your CSS styles for small screens */
   }
 
@@ -122,6 +150,7 @@ border-radius: 50%;
     .navbar-toggler{
         margin-top: -2.5rem;
         margin-left: -20rem;
+        background-color: white;
     }
     .mypic{
         margin: 2.5rem 0;
@@ -136,12 +165,6 @@ border-radius: 50%;
         font-size: 2.5rem;
  margin-right: 40rem !important;
 
-        /* logo-tex {
-            margin: 1.5rem !important;
-            margin-right: 1.5rem;
-           
-          }
-        } */
     }
     
     .logo-tex{
@@ -153,6 +176,15 @@ border-radius: 50%;
     }
 
 
+    .work-card{
+        height: 30rem;
+        width: 40%;
+    background-color: red;
+    text-align: center;
+    border-radius: .8rem;
+    border: .2px solid black;
+    padding: .5rem;
+    }
 
     
     /* Your CSS styles for medium screens */

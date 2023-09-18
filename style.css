@@ -24,26 +24,38 @@ h1{color: var(--heading-color);}
 .e{color: orange;}
 .r{color: rgb(28, 255, 236);}
 .n{color: greenyellow;}
+
+body{
+    background-color: var(--bg-color);
+}
+
 /* mern stuck color  */
 
 /*-------------------------- 
 main code start here 
 ---------------------------- */
 .header-sec{
+    background-image: url(/img/programming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.73);
     height: 64.3rem;
-    /* background-color:red; */
 }
 .div-manupu{ 
     height: 7.5rem;
 }
 .mypic{
-    margin: 2.5rem 0;
+    margin: 2.2rem 0;
     height: 12.5rem;
 width: 12.5rem;
 border-radius: 50%;
 }
 .logo-text{
     font-size: 2.5rem;
+    color: white !important;
+    margin-left: 2rem !important;
 }
 .nav-item{
     margin: 1rem;
@@ -51,7 +63,110 @@ border-radius: 50%;
 }
 .nav-link{
   font-size: 2rem;
+  color: aliceblue;
+
     
 }
 
+    /* --------------------
+    Main Home section 
+    ----------------------- */
+
+.main-home{
+    margin-top: 40rem;
+    width: 100%;
+    height: 64rem;
+    padding: 5rem;
+    animation: home-ani 4s 1 forwards;
+}
+@keyframes home-ani {
+    to{
+        margin-top:0 ;
+    }
     
+}
+.home-heading-text{
+    font-size: 4.5rem;
+}
+.home-p{
+    font-size: 2rem;
+}
+.work-btn{
+    height: 4rem;
+    width: 15rem;
+border: .2rem solid black;
+border-radius: .7rem;
+background-color: yellow;
+}
+.num-btn{
+    height: 4rem;
+    width: 15rem;
+border: none;
+background-color: transparent;
+color: white;
+font-size: 1.5rem;
+}
+
+/* works section start here  */
+.main-works-sec{
+    padding: 5rem;
+    height: 64rem;
+}
+.work-card{
+    height: 30rem;
+    width: 100%;
+background-color: red;
+text-align: center;
+border-radius: .8rem;
+border: .2px solid black;
+padding: .5rem;
+}
+
+.project-img{
+    width: 25rem;
+    border-radius: .8rem;
+}
+.project-btn{
+    height: 3rem;
+    width: 15rem;
+    border: .1rem solid black;
+    border-radius: .8rem ;
+    background-color: yellow;
+}
+.m-t{
+    margin-top: 15rem;
+}
+.card-heading{
+    font-size: 3rem;
+}
+.card-text{
+    font-size: 1.5rem;
+}
+
+/*-------------- 
+about section 
+------------------ */
+.main-about-sec{
+    padding: 5rem;
+}
+.about-parent{
+    height: 50rem;
+    width: 100%;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.main-about{
+    height: 19rem;
+    width:100% ;
+    margin-top: 1rem;
+    background-color: green;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+
+
+
+
+
