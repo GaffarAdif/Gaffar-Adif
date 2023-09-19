@@ -24,6 +24,18 @@ border-radius: 50%;
     margin-left: 30rem;
     background-color: white;
 }
+/* hastaagg section  */
+#home{margin-top: -5rem;}
+#works{margin-top: -24rem;}
+
+
+
+/* hastaagg section  */
+
+.c9{
+    margin-top: -10rem;
+width: 100% !important;
+}
 .mypic{
     margin: 2.5rem 0;
     margin-top: -.2rem;
@@ -43,10 +55,14 @@ border-radius: 50%;
 .navbar-nav{
     flex-direction: row !important;
 }
-.m-t{flex-direction: column;}
+/* .m-t{flex-direction: column;} */
+.project-img{
+    width:15rem;
+    border-radius: .8rem;
+}
 .work-card{
-    height: 30rem;
-    width: 60%;
+ height: 27.5rem;
+ width: 60%;
 background-color: red;
 text-align: center;
 border-radius: .8rem;
@@ -54,9 +70,8 @@ border: .2px solid black;
 padding: .5rem;
 }
 .w-c{
-    flex-direction: column;
 }
-
+S
 
 
     /* Your CSS styles for extra small screens */
@@ -131,13 +146,16 @@ padding: .5rem;
     html{font-size: 8px;}
     .header-sec{
         height: 7.5rem;
-        width: 100%;
+        width: 90rem;
+         border-radius: 1rem;
+         margin-top: 1rem;
     }
     .mypic{
         margin: 2rem 0;
         height: 5rem;
     width: 5rem;
     border-radius: 50%;
+   
     }
     .container-fluid{
         width: 100%;
@@ -174,7 +192,9 @@ padding: .5rem;
         flex-direction: row !important;
    
     }
-
+.c9{
+width: 100% !important;
+}
 
     .work-card{
         height: 30rem;
