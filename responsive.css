@@ -63,11 +63,16 @@ border-radius: 50%;
 .work-card{
  height: 27.5rem;
  width: 60%;
-background-color: red;
 text-align: center;
 border-radius: .8rem;
 border: .2px solid black;
 padding: .5rem;
+}
+.card-heading{
+    font-size: 2.4rem;
+}
+.card-text{
+    font-size: 1.4rem;
 }
 .w-c{
 }
@@ -130,7 +135,6 @@ S
 .work-card{
     height: 30rem;
     width: 50%;
-background-color: red;
 text-align: center;
 border-radius: .8rem;
 border: .2px solid black;
@@ -199,7 +203,6 @@ width: 100% !important;
     .work-card{
         height: 30rem;
         width: 40%;
-    background-color: red;
     text-align: center;
     border-radius: .8rem;
     border: .2px solid black;
